@@ -24,7 +24,7 @@
 
     <name>dog</name>
     <description>The dog WAR bundle</description>
-    <version>1.0-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
 
 
     <properties>
@@ -558,5 +558,14 @@
         </dependency>
 
     </dependencies>
-
+     <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://13.214.32.117:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://your-host:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
