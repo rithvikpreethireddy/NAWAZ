@@ -561,10 +561,10 @@
 
     </dependencies>
 	<distributionManagement>
-					<snapshotRepository>
-						<id>deployment</id>
+					<snapshot>
+						<id>nexus-snapshots</id>
 						<url>http://18.143.193.168:8081/repository/maven-snapshots/</url>
-					</snapshotRepository>
+					</snapshot>
 	
 	</distributionManagement>
      
