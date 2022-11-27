@@ -29,7 +29,7 @@ node {
           sh 'mvn package'
     }
         stage('maven deploy') {
-		nexusArtifactUploader artifacts: [[artifactId: 'bunny', classifier: '', file: 'target', type: 'war']], credentialsId: '65b74ec2-0c2f-46ae-9642-cc374d68fdea', groupId: 'puppy', nexusUrl: '18.143.193.168:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'maven-snapshots/', version: '1-SNAPSHOT'
+		
 	       
           sh 'mvn deploy'
     }
