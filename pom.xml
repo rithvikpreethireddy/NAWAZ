@@ -560,12 +560,5 @@
         </dependency>
 
     </dependencies>
-	<distributionManagement>
-	   <snapshot>
-	     <id>nexus-snapshots</id>
-	      <url>http://18.142.91.46:8081/repository/maven-snapshots/</url>
-	   </snapshot>
 	
-	</distributionManagement>
-     
 </project>
