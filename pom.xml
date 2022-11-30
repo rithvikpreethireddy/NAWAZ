@@ -560,11 +560,10 @@
         </dependency>
 
     </dependencies>
-   <distributionManagement>
+    <distributionManagement>
     <snapshotRepository>
       <id>deployment</id>
-      <url>http://18.142.91.46:8081/repository/maven-snapshots/</url>
+      <url>http://18.142.96.204:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-    
-  </distributionManagement>
+    </distributionManagement>
 </project>
