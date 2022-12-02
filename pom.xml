@@ -24,7 +24,7 @@
 
     <name>dog</name>
     <description>The dog WAR bundle</description>
-    <version>2-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
 
 
     <properties>
@@ -563,7 +563,7 @@
     <distributionManagement>
     <snapshotRepository>
       <id>deployment</id>
-      <url>http://18.142.96.204:8081/repository/maven-snapshots/</url>
+      <url>http://18.143.153.2:8081/repository/maven-pro/</url>
     </snapshotRepository>
     </distributionManagement>
 </project>
